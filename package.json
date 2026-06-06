@@ -11,6 +11,7 @@
   "engines": {
     "node": ">=16.0.0"
   },
+  "packageManager": "pnpm@11.5.1",
   "dependencies": {
     "gatsby": "^5.16.1",
     "gatsby-theme-portfolio-minimal": "^4.6.5",
@@ -19,13 +20,13 @@
   },
   "author": "Victor Véliz <ing.vj15@gmail.com>",
   "license": "0BSD",
-  "homepage": "https://github.com/victor-jvp/base-victor-jvp-website#readme",
+  "homepage": "https://github.com/victor-jvp/victor-jvp.github.io#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/victor-jvp/base-victor-jvp-website.git"
+    "url": "https://github.com/victor-jvp/victor-jvp.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/victor-jvp/base-victor-jvp-website/issues"
+    "url": "https://github.com/victor-jvp/victor-jvp.github.io/issues"
   },
   "keywords": [
     "react",
