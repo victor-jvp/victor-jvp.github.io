@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "🐃 BUFALINDA BUSINESS INTELLIGENCE - BBI",
+      "title": "Accounts, Inventory and Financial",
+      "description": "This system is a financial tool in charge of collecting and transforms the data from the ERP Microsoft Dynamics SL related to purchase, sales, inventory and accounting departments. It is based on Laravel with multiple MSSQL databases and hosted on the company's private servers.",
+      "tags": ["Laravel", "Jquery", "MSSQL", "Bootstrap"],
+      "image": {
+        "src": "../../images/projects/bbi.png",
+        "alt": "BBI Project Picture"
+      },
+      "links": []
+    },
+    {
+      "visible": true,
+      "category": "🐃 BUFALINDA WEB SITE",
+      "title": "Main Website",
+      "description": "Main web site for the Bufalinda products. Simple and clean were the main specifications and loyal to the designed provided by the client. It was build on C# MVC to integrate with the private domain features.",
+      "tags": ["C#", "MVC", "MSSQL", "IIS"],
+      "image": {
+        "src": "../../images/projects/bufalinda-web.jpeg",
+        "alt": "Bufalinda Web Picture",
+        "linkTo": "https://bufalinda.com/"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://bufalinda.com/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "⛪ GES-HERMANDAD JG",
+      "title": "Accounts and Management",
+      "description": "Project to register, manage, and generate reports to control the information of the brotherhood Montemayor where the users have to be making regular contributions to the Organization Montemayor. The system has several states to determine the status of the user's contributions and generates reports to maintain the historic data for each user. This system was adapted for 2 brotherhood locations that can be monitor by the requested client.",
+      "tags": ["Codeigniter", "Jquery", "MySql", "Bootstrap"],
+      "image": {
+        "src": "../../images/projects/brotherhood.png",
+        "alt": "Ges Hermandad JG Picture"
+      },
+      "links": []
+    },
+    {
+      "visible": true,
+      "category": "👩‍⚖️ TERESA GUILLEN LAWYERS JG",
+      "title": "Accounts, Administration and Tasks",
+      "description": "Project to register all information about a lawyer's office searching to keep data updated with the more related information. Manage all the dates with a dynamic calendar with coming dates notifications and has an economic's module to make invoices, register payments, and more additional information to generate stats data and compare between clients and other cases registered.",
+      "tags": ["Codeigniter", "Jquery", "MySql", "Bootstrap"],
+      "image": {
+        "src": "../../images/projects/lawyers.png",
+        "alt": "Teresa Guillen Lawyers JG Picture"
+      },
+      "links": []
+    },
+    {
+      "visible": false,
+      "category": "🧰 EASY AND QUICK SETUP",
+      "title": "Add content and deploy!",
+      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
+      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "image": {
+        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "alt": "Quick Setup",
+        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        },
+        {
+          "type": "external",
+          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "visible": false,
+    "label": "Visit me on Github",
+    "url": "https://github.com/victor-jvp"
+  }
+}

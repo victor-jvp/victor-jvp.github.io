@@ -1,0 +1,13 @@
+{
+  "name": "Victor Véliz",
+  "email": "ing.vj15@gmail.com",
+  "description": "Down bellow you will find the way to contact.",
+  "image": {
+    "src": "",
+    "alt": ""
+  },
+  "socialProfiles": {
+    "from": ["LinkedIn", "Github", "Mail", "Twitter"],
+    "showIcons": true
+  }
+}

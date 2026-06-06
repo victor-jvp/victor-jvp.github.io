@@ -1,0 +1,39 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://victor-jvp.github.io/",
+    "title": "Victor Véliz | Full Stack Developer",
+    "titleTemplate": "%s · Victor Véliz",
+    "description": "Full-stack developer with 8+ years of experience in Laravel, CodeIgniter, C#, and React. Portfolio of financial, inventory, and web applications built for businesses.",
+    "author": "Victor Véliz",
+    "avatar": "../content/images/profile-pic.png",
+    "bio": "I am a self-taught developer with over 8 years of professional experience with different technologies.",
+    "social": {
+      "github": "https://github.com/victor-jvp",
+      "linkedin": "https://www.linkedin.com/in/victor-jvp",
+      "twitter": "https://twitter.com/VicTorJVP",
+      "mail": "mailto:ing.vj15@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "Victor Véliz" },
+    "navigation": {
+      "header": [
+        { "label": "Projects", "url": "/#projects" },
+        { "label": "About", "url": "/#about" },
+        { "label": "Contact", "url": "/#contact" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Resume",
+        "url": "/Victor_Veliz_resume.pdf"
+      },
+      "footer": []
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}

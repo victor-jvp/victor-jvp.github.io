@@ -1,0 +1,42 @@
+{
+  "name": "victor-jvp-website",
+  "version": "1.0.0",
+  "description": "Victor Véliz - Full Stack Developer Portfolio",
+  "scripts": {
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "gatsby": "^5.16.1",
+    "gatsby-theme-portfolio-minimal": "^4.6.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "author": "Victor Véliz <ing.vj15@gmail.com>",
+  "license": "0BSD",
+  "homepage": "https://github.com/victor-jvp/base-victor-jvp-website#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victor-jvp/base-victor-jvp-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/victor-jvp/base-victor-jvp-website/issues"
+  },
+  "keywords": [
+    "react",
+    "gatsby",
+    "gatsby-theme",
+    "PWA",
+    "portfolio",
+    "showcase",
+    "minimal",
+    "animations",
+    "dark-mode",
+    "gdpr-compliant"
+  ]
+}
