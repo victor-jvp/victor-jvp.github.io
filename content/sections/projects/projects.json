@@ -2,6 +2,30 @@
   "projects": [
     {
       "visible": true,
+      "category": "🐃 ISEI PymeSoft",
+      "title": "Evaluations, Indicators and Services",
+      "description": "Pymesoft is a comprehensive organizational management suite designed to streamline how businesses track innovation, performance, and strategic goals. By centralizing key areas such as performance indicators, project evaluations, and operational commitments, the platform provides leadership with a clear, real-time overview of the company's progress and health. It simplifies the transition from planning to execution through automated reporting and integrated meeting management, ensuring that teams stay focused on high-impact activities while fostering a culture of accountability and continuous improvement across the entire organization.",
+      "tags": ["Laravel", "Vue3", "Inertia JS", "MariaDB", "Bootstrap"],
+      "image": {
+        "src": "../../images/projects/pymesoft.png",
+        "alt": "ISEI Pymesoft Project"
+      },
+      "links": []
+    },
+    {
+      "visible": true,
+      "category": "🐃 AED-SGS Service Requirements System",
+      "title": "Inventory, Services and Requirements",
+      "description": "The purpose of this system is to administer and manage support requests to the talent management and IT departments. It integrates service management modules and inventory management for technological equipment, as well as equipment assigned to company personnel. It also manages support requests submitted to partner companies that provide services to AED's systems and infrastructure.",
+      "tags": ["Codeigniter", "Jquery", "MySql", "Bootstrap"],
+      "image": {
+        "src": "../../images/projects/sgs_aed.png",
+        "alt": "AED-SGS Project"
+      },
+      "links": []
+    },
+    {
+      "visible": true,
       "category": "🐃 BUFALINDA BUSINESS INTELLIGENCE - BBI",
       "title": "Accounts, Inventory and Financial",
       "description": "This system is a financial tool in charge of collecting and transforms the data from the ERP Microsoft Dynamics SL related to purchase, sales, inventory and accounting departments. It is based on Laravel with multiple MSSQL databases and hosted on the company's private servers.",
@@ -53,28 +77,6 @@
         "alt": "Teresa Guillen Lawyers JG Picture"
       },
       "links": []
-    },
-    {
-      "visible": false,
-      "category": "🧰 EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
-      "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        },
-        {
-          "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
-        }
-      ]
     }
   ],
   "button": {
