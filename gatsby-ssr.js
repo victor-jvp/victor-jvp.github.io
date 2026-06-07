@@ -1,7 +1,7 @@
 const React = require("react");
 
-exports.onRenderBody = ({ setHeadComponents }) => {
-  setHeadComponents(
+exports.onRenderBody = ({ setPostBodyComponents }) => {
+  setPostBodyComponents(
     <script
       key="theme-mode"
       dangerouslySetInnerHTML={{
