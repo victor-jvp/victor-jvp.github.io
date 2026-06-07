@@ -31,9 +31,9 @@
       "footer": []
     },
     "featureToggles": {
-      "useDarkModeAsDefault": false,
-      "useDarkModeBasedOnUsersPreference": true,
-      "useCookieBar": false
-    }
+        "useDarkModeAsDefault": false,
+        "useDarkModeBasedOnUsersPreference": false,
+        "useCookieBar": false
+      }
   }
 }
