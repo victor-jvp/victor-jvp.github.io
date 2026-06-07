@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://victor-jvp.github.io/sitemap-index.xml
+Host: https://victor-jvp.github.io
