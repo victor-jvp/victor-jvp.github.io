@@ -1,5 +1,6 @@
 import React from "react";
 import { Page, Seo } from "gatsby-theme-portfolio-minimal";
+import ThemeToggle from "../components/ThemeToggle";
 
 export default function NotFoundPage() {
   return (
@@ -16,6 +17,7 @@ export default function NotFoundPage() {
           <p>Page not found.</p>
           <a href="/">Go back home</a>
         </div>
+        <ThemeToggle />
       </Page>
     </>
   );

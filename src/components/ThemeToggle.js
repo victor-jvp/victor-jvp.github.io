@@ -52,33 +52,42 @@ export default function ThemeToggle() {
   const { mode, cycle } = useThemeMode();
 
   return (
-    <button
-      onClick={cycle}
-      aria-label={`Theme: ${mode}. Click to change.`}
-      title={`Theme mode: ${mode}`}
+    <div
       style={{
-        background: "transparent",
-        border: "none",
-        cursor: "pointer",
-        padding: "8px",
-        borderRadius: "50%",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        color: "var(--primary-color)",
-        opacity: 0.8,
-        transition: "opacity 0.2s",
+        position: "fixed",
+        top: "calc(var(--header-height, 5rem) / 2 - 17px)",
+        right: "80px",
+        zIndex: 1000,
       }}
-      onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
-      onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.8")}
     >
-      {mode === "light" ? (
-        <SunIcon />
-      ) : mode === "dark" ? (
-        <MoonIcon />
-      ) : (
-        <AutoIcon />
-      )}
-    </button>
+      <button
+        onClick={cycle}
+        aria-label={`Theme: ${mode}. Click to change.`}
+        title={`Theme mode: ${mode}`}
+        style={{
+          background: "transparent",
+          border: "none",
+          cursor: "pointer",
+          padding: "8px",
+          borderRadius: "50%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          color: "var(--primary-color)",
+          opacity: 0.8,
+          transition: "opacity 0.2s",
+        }}
+        onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
+        onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.8")}
+      >
+        {mode === "light" ? (
+          <SunIcon />
+        ) : mode === "dark" ? (
+          <MoonIcon />
+        ) : (
+          <AutoIcon />
+        )}
+      </button>
+    </div>
   );
 }

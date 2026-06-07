@@ -1,5 +1,4 @@
 const React = require("react");
-const RootLayout = require("./src/components/RootLayout").default;
 
 exports.onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents(
@@ -23,8 +22,4 @@ exports.onRenderBody = ({ setHeadComponents }) => {
       }}
     />,
   );
-};
-
-exports.wrapPageElement = ({ element }) => {
-  return React.createElement(RootLayout, null, element);
 };

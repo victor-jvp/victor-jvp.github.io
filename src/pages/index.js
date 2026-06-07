@@ -9,6 +9,7 @@ import {
   Seo,
 } from "gatsby-theme-portfolio-minimal";
 import ScrollToTopButton from "../components/ScrollToTopButton";
+import ThemeToggle from "../components/ThemeToggle";
 
 export default function IndexPage() {
   return (
@@ -35,6 +36,7 @@ export default function IndexPage() {
         <AboutSection sectionId="about" heading="A little about me" />
         <InterestsSection sectionId="skills" heading="Skills" />
         <ContactSection sectionId="contact" heading="Contact" />
+        <ThemeToggle />
       </Page>
       <ScrollToTopButton />
     </>

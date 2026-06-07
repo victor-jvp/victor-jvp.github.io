@@ -1,5 +1,6 @@
 import React from "react";
 import { LegalSection, Page, Seo } from "gatsby-theme-portfolio-minimal";
+import ThemeToggle from "../components/ThemeToggle";
 
 export default function ImprintPage() {
   return (
@@ -7,6 +8,7 @@ export default function ImprintPage() {
       <Seo title="Imprint" useTitleTemplate={true} noIndex={true} />
       <Page>
         <LegalSection sectionId="imprint" heading="Imprint" />
+        <ThemeToggle />
       </Page>
     </>
   );
