@@ -27,7 +27,7 @@ export default function ScrollToTopButton() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
+        boxShadow: "0 2px 8px var(--box-shadow-color)",
         zIndex: 999,
         transition: "opacity 0.2s",
       }}
