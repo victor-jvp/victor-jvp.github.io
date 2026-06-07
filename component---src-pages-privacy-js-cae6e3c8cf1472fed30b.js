@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvictor_jvp_website=self.webpackChunkvictor_jvp_website||[]).push([[745],{4548:function(e,t,n){n.r(t),n.d(t,{default:function(){return i}});var c=n(758),l=n(7047),r=n(2993);function i(){return c.createElement(c.Fragment,null,c.createElement(l.G$,{title:"Privacy Policy",useTitleTemplate:!0,noIndex:!0}),c.createElement(l.YW,null,c.createElement(l.v3,{sectionId:"privacy",heading:"Privacy Policy"}),c.createElement(r.A,null)))}}}]);
+//# sourceMappingURL=component---src-pages-privacy-js-cae6e3c8cf1472fed30b.js.map
