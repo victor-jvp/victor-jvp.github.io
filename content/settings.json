@@ -7,6 +7,7 @@
     "description": "Full-stack developer with 8+ years of experience in Laravel, CodeIgniter, C#, and React. Portfolio of financial, inventory, and web applications built for businesses.",
     "author": "Victor Véliz",
     "avatar": "../content/images/profile-pic.png",
+    "thumbnail": "../content/images/profile-pic.png",
     "bio": "I am a self-taught developer with over 8 years of professional experience with different technologies.",
     "social": {
       "github": "https://github.com/victor-jvp",
@@ -33,7 +34,7 @@
     "featureToggles": {
         "useDarkModeAsDefault": false,
         "useDarkModeBasedOnUsersPreference": false,
-        "useCookieBar": false
+        "useCookieBar": true
       }
   }
 }

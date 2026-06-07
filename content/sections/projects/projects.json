@@ -5,7 +5,7 @@
       "category": "🐃 ISEI PymeSoft",
       "title": "Evaluations, Indicators and Services",
       "description": "Pymesoft is a comprehensive organizational management suite designed to streamline how businesses track innovation, performance, and strategic goals. By centralizing key areas such as performance indicators, project evaluations, and operational commitments, the platform provides leadership with a clear, real-time overview of the company's progress and health. It simplifies the transition from planning to execution through automated reporting and integrated meeting management, ensuring that teams stay focused on high-impact activities while fostering a culture of accountability and continuous improvement across the entire organization.",
-      "tags": ["Laravel", "Vue3", "Inertia JS", "MariaDB", "Bootstrap"],
+      "tags": ["Laravel", "Vue3", "Inertia JS", "MariaDB", "Bootstrap", "Internal"],
       "image": {
         "src": "../../images/projects/pymesoft.png",
         "alt": "ISEI Pymesoft Project"
@@ -17,7 +17,7 @@
       "category": "🐃 AED-SGS Service Requirements System",
       "title": "Inventory, Services and Requirements",
       "description": "The purpose of this system is to administer and manage support requests to the talent management and IT departments. It integrates service management modules and inventory management for technological equipment, as well as equipment assigned to company personnel. It also manages support requests submitted to partner companies that provide services to AED's systems and infrastructure.",
-      "tags": ["Codeigniter", "Jquery", "MySql", "Bootstrap"],
+      "tags": ["Codeigniter", "Jquery", "MySql", "Bootstrap", "Internal"],
       "image": {
         "src": "../../images/projects/sgs_aed.png",
         "alt": "AED-SGS Project"
@@ -29,7 +29,7 @@
       "category": "🐃 BUFALINDA BUSINESS INTELLIGENCE - BBI",
       "title": "Accounts, Inventory and Financial",
       "description": "This system is a financial tool in charge of collecting and transforms the data from the ERP Microsoft Dynamics SL related to purchase, sales, inventory and accounting departments. It is based on Laravel with multiple MSSQL databases and hosted on the company's private servers.",
-      "tags": ["Laravel", "Jquery", "MSSQL", "Bootstrap"],
+      "tags": ["Laravel", "Jquery", "MSSQL", "Bootstrap", "Internal"],
       "image": {
         "src": "../../images/projects/bbi.png",
         "alt": "BBI Project Picture"
@@ -59,7 +59,7 @@
       "category": "⛪ GES-HERMANDAD JG",
       "title": "Accounts and Management",
       "description": "Project to register, manage, and generate reports to control the information of the brotherhood Montemayor where the users have to be making regular contributions to the Organization Montemayor. The system has several states to determine the status of the user's contributions and generates reports to maintain the historic data for each user. This system was adapted for 2 brotherhood locations that can be monitor by the requested client.",
-      "tags": ["Codeigniter", "Jquery", "MySql", "Bootstrap"],
+      "tags": ["Codeigniter", "Jquery", "MySql", "Bootstrap", "Internal"],
       "image": {
         "src": "../../images/projects/brotherhood.png",
         "alt": "Ges Hermandad JG Picture"
@@ -71,7 +71,7 @@
       "category": "👩‍⚖️ TERESA GUILLEN LAWYERS JG",
       "title": "Accounts, Administration and Tasks",
       "description": "Project to register all information about a lawyer's office searching to keep data updated with the more related information. Manage all the dates with a dynamic calendar with coming dates notifications and has an economic's module to make invoices, register payments, and more additional information to generate stats data and compare between clients and other cases registered.",
-      "tags": ["Codeigniter", "Jquery", "MySql", "Bootstrap"],
+      "tags": ["Codeigniter", "Jquery", "MySql", "Bootstrap", "Internal"],
       "image": {
         "src": "../../images/projects/lawyers.png",
         "alt": "Teresa Guillen Lawyers JG Picture"

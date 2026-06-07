@@ -30,7 +30,7 @@ export default function IndexPage() {
           })}
         </script>
       </Seo>
-      <Page useSplashScreenAnimation>
+      <Page>
         <HeroSection sectionId="hero" />
         <ProjectsSection sectionId="projects" heading="Projects" />
         <AboutSection sectionId="about" heading="A little about me" />
