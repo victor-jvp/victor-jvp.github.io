@@ -4,11 +4,6 @@ import { useGlobalState, Theme, ActionType } from "gatsby-theme-portfolio-minima
 const STORAGE_KEY = "theme-mode";
 const MODES = ["light", "dark", "auto"];
 
-function getStoredMode() {
-  if (typeof window === "undefined") return "auto";
-  return localStorage.getItem(STORAGE_KEY) || "auto";
-}
-
 function resolveTheme(mode) {
   if (mode === "dark") return "darkTheme";
   if (mode === "light") return "lightTheme";
@@ -20,15 +15,13 @@ function resolveTheme(mode) {
 
 export default function useThemeMode() {
   const { dispatch } = useGlobalState();
-  const [mode, setMode] = useState(getStoredMode);
+  const [mode, setMode] = useState("auto");
 
-  const cycle = useCallback(() => {
-    setMode((prev) => {
-      const idx = MODES.indexOf(prev);
-      const next = MODES[(idx + 1) % MODES.length];
-      localStorage.setItem(STORAGE_KEY, next);
-      return next;
-    });
+  useLayoutEffect(() => {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (stored && MODES.includes(stored) && stored !== "auto") {
+      setMode(stored);
+    }
   }, []);
 
   useLayoutEffect(() => {
@@ -53,6 +46,15 @@ export default function useThemeMode() {
       return () => mq.removeEventListener("change", handler);
     }
   }, [mode, dispatch]);
+
+  const cycle = useCallback(() => {
+    setMode((prev) => {
+      const idx = MODES.indexOf(prev);
+      const next = MODES[(idx + 1) % MODES.length];
+      localStorage.setItem(STORAGE_KEY, next);
+      return next;
+    });
+  }, []);
 
   return { mode, cycle };
 }
